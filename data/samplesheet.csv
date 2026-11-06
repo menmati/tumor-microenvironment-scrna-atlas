@@ -1,0 +1,4 @@
+sample,fastq_1,fastq_2,condition,chemistry
+patient1_responder,data/fastq/p1_R1.fastq.gz,data/fastq/p1_R2.fastq.gz,Responder,10xv3
+patient2_non_responder,data/fastq/p2_R1.fastq.gz,data/fastq/p2_R2.fastq.gz,Non_Responder,10xv3
+patient3_non_responder,data/fastq/p3_R1.fastq.gz,data/fastq/p3_R2.fastq.gz,Non_Responder,10xv3

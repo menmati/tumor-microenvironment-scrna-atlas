@@ -1,0 +1,5 @@
+"Biomarker_Axis","Key_Ligand_Receptor","Source_Population","Target_Population","Biological_Impact"
+"CD8+ T-Cell Exhaustion","PDCD1, HAVCR2, LAG3","Cytotoxic -> Exhausted T transition","Terminal Exhausted TILs","Loss of cytotoxic granzymes; checkpoint resistance"
+"Angiogenesis Axis","VEGFA - FLT1 / KDR","Cancer-Associated Fibroblasts & Tumor","Endothelial Cells","Tumor neo-vascularization"
+"Immunosuppression Axis","TGFB1 - TGFBR2","Cancer-Associated Fibroblasts (CAFs)","CD8+ T Cells & Monocytes","Fibrotic immune exclusion & stroma shielding"
+"Checkpoint Blockade Axis","CD274 (PD-L1) - PDCD1 (PD-1)","M2-like TAMs (CD163+) & Tumor Cells","CD8+ Exhausted T Cells","Functional paralysis of tumor-infiltrating lymphocytes"

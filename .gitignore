@@ -1,0 +1,21 @@
+# Nextflow work and cache
+work/
+.nextflow/
+.nextflow.log*
+
+# Large biological files, indices and serialized R objects
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+reference/star_index/
+data/fastq/
+*.rds
+results/objects/*.rds
+
+# OS and environment metadata
+.DS_Store
+Thumbs.db
+.Rproj.user/
+.Rhistory
+.RData

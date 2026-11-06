@@ -1,0 +1,4 @@
+"Sample","Condition","Initial_Cells","Filtered_Cells","Retention_Rate","nCount_Lower","nCount_Upper","nFeature_Lower","nFeature_Upper","percent_mt_Upper"
+"patient1_responder","Responder",3314,3215,97.01,1957.3,22515.3,776.7,4786.2,15
+"patient2_non_responder","Non_Responder",3314,3217,97.07,2017.9,21705.2,770.4,4819.9,15
+"patient3_non_responder","Non_Responder",3314,3187,96.17,2001.5,21740.6,796.1,4635.6,15

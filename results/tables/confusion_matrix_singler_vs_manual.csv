@@ -1,0 +1,17 @@
+"","CD8+ Cytotoxic T","CD4+ Naive/Memory T","Monocytes / M1 TAMs","Natural Killer (NK)","M2-like TAMs (CD163+)","B Lymphocytes (MS4A1+)","CD8+ Exhausted T (PD-1+)","CD4+ Regulatory T (FOXP3+)","Cancer-Associated Fibroblasts","Endothelial Cells (PECAM1+)","Plasma B Cells (MZB1+)","Tumor Epithelial Cells (EPCAM+)","Conventional Dendritic Cells (cDC)","Mast Cells (TPSAB1+)","Pericytes & Mural Cells","Proliferating Lymphocytes (MKI67+)"
+"CD8+ Cytotoxic T",1959,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"CD4+ Naive/Memory T",0,1523,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Monocytes / M1 TAMs",0,0,1183,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Natural Killer (NK)",0,0,0,1033,0,0,0,0,0,0,0,0,0,0,0,0
+"M2-like TAMs (CD163+)",0,0,95,0,626,0,0,0,0,0,0,0,0,0,0,0
+"B Lymphocytes (MS4A1+)",0,0,0,0,0,589,0,0,0,0,0,0,0,0,0,0
+"CD8+ Exhausted T (PD-1+)",0,0,0,102,0,0,450,0,0,0,0,0,0,0,0,0
+"CD4+ Regulatory T (FOXP3+)",0,57,0,0,0,0,0,446,0,0,0,0,0,0,0,0
+"Cancer-Associated Fibroblasts",0,0,0,0,0,0,0,0,394,0,0,0,0,0,0,0
+"Endothelial Cells (PECAM1+)",0,0,0,0,0,0,0,0,0,350,0,0,0,0,0,0
+"Plasma B Cells (MZB1+)",0,0,0,0,0,0,0,0,0,0,260,0,0,0,0,0
+"Tumor Epithelial Cells (EPCAM+)",0,0,0,0,0,0,0,0,0,0,0,195,0,0,0,0
+"Conventional Dendritic Cells (cDC)",0,0,0,0,0,0,0,0,0,0,0,0,171,0,0,0
+"Mast Cells (TPSAB1+)",0,0,0,0,0,0,0,0,0,0,0,0,0,103,0,0
+"Pericytes & Mural Cells",0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,0
+"Proliferating Lymphocytes (MKI67+)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
