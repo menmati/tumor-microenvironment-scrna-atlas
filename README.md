@@ -236,9 +236,7 @@ Rscript scripts/04_systems_biology.R
 ## Author & Contact
 
 **Carmen Macías Portillo**  
-*Bioinformatician & Computational Biologist*  
-GitHub: [@menmati](https://github.com/menmati)  
-Email: `carmenmaciasportillo@gmail.com`
+*Bioinformatician & Computational Biologist*
 
 ---
 *Distributed under the MIT License. See [LICENSE](LICENSE) for details.*
