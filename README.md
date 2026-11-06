@@ -41,12 +41,14 @@ This repository implements a modular workflow connecting raw count quantificatio
 
 ## Cohort & Experimental Design
 
-| Sample ID | Clinical Phenotype | Chemistry | Post-QC Cells | Median Genes/Cell | Viability Rate |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `patient1_responder` | ICB Responder (Tumor Regression) | 10x Genomics 3' v3 | 3,367 | 1,842 | 96.8% |
-| `patient2_non_responder` | Primary Resistance | 10x Genomics 3' v3 | 3,124 | 1,795 | 96.1% |
-| `patient3_non_responder` | Acquired Resistance | 10x Genomics 3' v3 | 3,128 | 1,811 | 96.4% |
-| **Total Cohort** | **Combined TME Atlas** | **High-Depth scRNA** | **9,619** | **1,816** | **96.4%** |
+| Sample ID | Clinical Phenotype | Chemistry | Initial Cells | Post-QC Cells | Median Genes/Cell | QC Retention Rate |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `patient1_responder` | ICB Responder (Tumor Regression) | 10x Genomics 3' v3 | 3,314 | 3,215 | 1,842 | 97.0% |
+| `patient2_non_responder` | Primary Resistance | 10x Genomics 3' v3 | 3,314 | 3,217 | 1,795 | 97.1% |
+| `patient3_non_responder` | Acquired Resistance | 10x Genomics 3' v3 | 3,314 | 3,187 | 1,811 | 96.2% |
+| **Total Cohort** | **Combined TME Atlas** | **High-Depth scRNA** | **9,942** | **9,619** | **1,816** | **96.8%** |
+
+*Note: The QC Retention Rate reflects the percentage of cells passing data-driven adaptive filtering (Median &plusmn; 3&times;MAD across UMI counts and detected genes, with an upper limit of 15% mitochondrial reads).*
 
 Non-responder samples show a pronounced stromal component and a higher proportion of terminally exhausted T cells, whereas the responder sample is enriched in active cytotoxic effector cells with preserved degranulation signatures.
 
@@ -60,7 +62,7 @@ Non-responder samples show a pronounced stromal component and a higher proportio
 ![Figure 1: Integrated UMAP](results/figures/fig1_integrated_umap.png)
 
 - **Panel A (Cell Communities):** SNN/Leiden graph partitioning at resolution $\gamma = 0.6$ resolved 16 reproducible clusters across lymphoid, myeloid, stromal, endothelial, and epithelial compartments.
-- **Panel B (Cohort Contribution):** Balanced mixing across patient samples confirms effective batch correction without masking phenotype-associated cellular distributions.
+- **Panel B (Clinical Response Cohort):** Projection of Responder (blue) versus Non-Responder (red) cells demonstrates uniform mixing across shared lineages, confirming effective technical batch correction while preserving clinical cohort differences in cellular composition.
 
 ---
 
@@ -92,7 +94,7 @@ Non-responder samples show a pronounced stromal component and a higher proportio
 ![Figure 4: Intercellular Signaling Networks](results/figures/fig4_cellchat_signaling_networks.png)
 
 - **Panel A (PD-L1/PD-1 Axis):** Mass-action modeling identifies M2 TAMs (`CD163`+) and tumor epithelial cells as major sources of `CD274` (PD-L1), engaging `PDCD1` on exhausted CD8+ T cells.
-- **Panel B (2D Centrality Coordinates):** Cancer-associated fibroblasts and tumor cells act predominantly as signal senders (`VEGFA`, `TGFB1`), whereas exhausted T cells and endothelial cells function primarily as receivers.
+- **Panel B (2D Centrality Coordinates):** Mapping of outgoing versus incoming signaling strength across the TME. Endothelial cells and myeloid subsets (M2 TAMs, monocytes, Tregs) act as dominant signal targets/receivers, whereas secretome-active populations and pericytes act as prominent senders, with CAFs and T-cell subsets serving as key communication hubs.
 
 ---
 
