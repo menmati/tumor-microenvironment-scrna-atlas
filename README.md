@@ -1,6 +1,7 @@
 # Tumor Microenvironment Single-Cell RNA-Seq Atlas (TME-scAtlas)
 
 [![Nextflow DSL2](https://img.shields.io/badge/Nextflow-DSL2%20v24+-23aa99.svg?style=flat-square&logo=nextflow)](https://www.nextflow.io/)
+[![Nextflow Pipeline Validation](https://github.com/menmati/tumor-microenvironment-scrna-atlas/actions/workflows/nextflow-validation.yml/badge.svg)](https://github.com/menmati/tumor-microenvironment-scrna-atlas/actions/workflows/nextflow-validation.yml)
 [![Seurat v5](https://img.shields.io/badge/Seurat-v5.2.1-0073e6.svg?style=flat-square)](https://satijalab.org/seurat/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-blue.svg?style=flat-square&logo=docker)](https://hub.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
